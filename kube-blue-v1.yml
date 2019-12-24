@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-example
-          image: 'gcr.io/fleet-resolver-237016/spring-boot-example:v1'
+          image: 'gcr.io/my-first-project-254606/spring-boot-example:v1'
           ports:
             - containerPort: 8080
           readinessProbe:
